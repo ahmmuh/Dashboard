@@ -1,0 +1,18 @@
+<main class="contentWraper">
+  <app-user-list [people]="names"></app-user-list>
+  <section class="content">
+    <form #userForm="ngForm" (ngSubmit)="addUser()">
+      <input
+        type="email"
+        placeholder="New user"
+        [(ngModel)]="name"
+        name="firstName"
+        id="name"
+      />
+      <div class="form-group">
+        <button [disabled]="!userForm.valid" class="btn-add">Add</button>
+        <button class="btn-remove" (click)="removeUser(name)">Remove</button>
+      </div>
+    </form>
+  </section>
+</main>
