@@ -1,0 +1,26 @@
+<div class="registerForm">
+    <form class="register">
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email" name="email" />
+        </div>
+        <div class="form-control">
+            <label for="fname">Firstname</label>
+            <input type="text" placeholder="firstName" name="fname" />
+        </div>
+        <div class="form-control">
+            <label for="lname">Lastname</label>
+            <input type="text" placeholder="lastname" name="lname" />
+        </div>
+
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" placeholder="password" name="password" />
+        </div>
+        <div class="btn-groups">
+            <button class="registerBtn" (click)="createUser()">Create User</button>
+            <button class="existingBtn" (click)="existingUser()">login with exinting user</button>
+        </div>
+    </form>
+
+</div>

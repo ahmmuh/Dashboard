@@ -97,3 +97,34 @@
     .message {
         color: red;
     }
+
+    .registerForm, .loginForm {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .form-control {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .registerForm button:nth-child(1) {
+        background-color: green;
+    }
+
+    .registerForm button:nth-child(2) {
+        background-color: blue;
+    }
+
+    .loginForm button:nth-child(1) {
+        background-color: green;
+    }
+
+    .loginForm button:nth-child(3) {
+        background-color: blue;
+    }
+    

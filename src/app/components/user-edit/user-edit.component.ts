@@ -1,13 +1,11 @@
 import { Component, OnInit } from "@angular/core";
-import { NgForm } from "@angular/forms";
-import { FormControl } from "@angular/forms";
-import { User } from "src/model";
 @Component({
   selector: "app-user-edit",
   templateUrl: "./user-edit.component.html",
   styleUrls: ["./user-edit.component.css"],
 })
 export class UserEditComponent implements OnInit {
+
   title: "Edit user";
   name: string;
   public names = [];
