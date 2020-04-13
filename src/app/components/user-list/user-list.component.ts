@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { User } from "../../../model";
+//import { User } from "../../../model";
 @Component({
   selector: "app-user-list",
   templateUrl: "./user-list.component.html",
@@ -10,7 +10,5 @@ export class UserListComponent implements OnInit {
   @Input() public users = [];
   constructor() {}
 
-  ngOnInit(): void {
-    console.log(this.users);
-  }
+  ngOnInit(): void {}
 }

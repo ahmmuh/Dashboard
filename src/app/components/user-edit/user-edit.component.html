@@ -5,12 +5,13 @@
       <input
         type="text"
         placeholder="New user"
-        [(ngModel)]="name"
         name="name"
         id="name"
+        [(ngModel)]="name"
+     
       />
       <div class="form-group">
-        <button [disabled]="!userForm.valid" class="btn-add">Add</button>
+        <button  [disabled]="!userForm.valid" class="btn-add">Add</button>
         <button class="btn-remove" (click)="removeUser(name)">Remove</button>
       </div>
     </form>

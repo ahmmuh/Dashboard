@@ -89,3 +89,11 @@
         background-color: #222;
         color: white;
     }
+
+    .changeColorList {
+        color: red;
+    }
+
+    .message {
+        color: red;
+    }
