@@ -1,12 +1,12 @@
 <main class="contentWraper">
-  <app-user-list [people]="names"></app-user-list>
+  <app-user-list [users]="names"></app-user-list>
   <section class="content">
     <form #userForm="ngForm" (ngSubmit)="addUser()">
       <input
-        type="email"
+        type="text"
         placeholder="New user"
         [(ngModel)]="name"
-        name="firstName"
+        name="name"
         id="name"
       />
       <div class="form-group">

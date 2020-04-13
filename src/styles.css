@@ -1,14 +1,14 @@
     /* You can add global styles to this file, and also import other style files */
-    
+
     * {
         padding: 0;
         margin: 0;
     }
-    
+
     .container h1 {
         text-align: center;
     }
-    
+
     .contentWraper {
         display: grid;
         grid-template-columns: 30% 1fr;
@@ -17,28 +17,31 @@
         width: 90%;
         margin: 10px auto;
     }
-    
-    aside,
+
     section {
-        height: 100vh;
+        height: 40vh;
+    }
+
+    aside {
+        height: auto;
         padding: 10px;
     }
-    
+
     .leftAside {
         background-color: rgb(240, 235, 235);
     }
-    
+
     .content {
         background-color: rgb(240, 235, 235);
     }
-    
+
     form input {
         font-size: 14px;
         padding: 6px;
         border-radius: 10px;
         width: 40%;
     }
-    
+
     form button {
         color: white;
         cursor: pointer;
@@ -48,30 +51,30 @@
         width: 15%;
         margin: 10px 0;
     }
-    
+
     form .btn-add {
         background-color: green;
     }
-    
+
     form .btn-remove {
         background-color: red;
     }
-    
+
     form .form-group {
         display: flex;
     }
-    
+
     .leftSide ul {
         list-style-type: none;
     }
-    
+
     .leftSide ul li {
         line-height: 1;
         padding: 13px 8px;
         font-size: 18px;
         border-bottom: 1px solid #aaa5a5;
     }
-    
+
     .leftSide .toggleBtn {
         background-color: rgb(11, 155, 180);
         color: white;
@@ -81,7 +84,7 @@
         height: 36px;
         width: 100%;
     }
-    
+
     .leftSide .toggleBtn:hover {
         background-color: #222;
         color: white;

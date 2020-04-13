@@ -7,13 +7,10 @@ import { User } from "../../../model";
 })
 export class UserListComponent implements OnInit {
   name: string;
-  @Input() public people = [];
-  toggleClass = false;
+  @Input() public users = [];
   constructor() {}
 
-  ngOnInit(): void {}
-
-  toggleColor() {
-    this.toggleClass = !this.toggleClass;
+  ngOnInit(): void {
+    console.log(this.users);
   }
 }

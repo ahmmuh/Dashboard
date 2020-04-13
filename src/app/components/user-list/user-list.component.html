@@ -1,9 +1,4 @@
-<aside class="leftAside">
-    <aside class="leftSide">
-        <ul [class.changeColorList]="toggleClass">
-            <li *ngFor="let user of people">{{user.name}}</li>
 
-        </ul>
-        <button class="toggleBtn" (click)="toggleColor()">Toggle Colors</button>
-    </aside>
-</aside>
+ 
+
+<app-user-list-item [user]="users"></app-user-list-item>
